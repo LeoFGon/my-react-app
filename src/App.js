@@ -1,8 +1,17 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Banner from './components/Banner';
+import Container from './components/Container';
 
 function App() {
     return (
-            <h1>Hello, world!</h1>
+            <>
+            < Header />
+            < Banner />
+            < Container />
+            < Footer />
+            </>
     );
 }
 

@@ -1,0 +1,12 @@
+.container {
+    background-color: #cee4fa;
+    color: #000;
+    /* allow this container to grow and fill available vertical space */
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; /* reduce large fixed padding so content can use space */
+    box-sizing: border-box;
+    width: 100%;
+}

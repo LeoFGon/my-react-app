@@ -1,8 +1,53 @@
 .header {
-    background-color: #282c34;
-    border-bottom: 2px solid #f44336;
-    color: white;
+    background-color: #c9d7f3;
+    color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    display: block;
+    object-fit: contain;
+}
+
+.titulo {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: inherit;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: background-color 150ms ease, color 150ms ease;
+}
+
+.nav a:hover,
+.nav a:focus {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive: collapse gap on small screens */
+@media (max-width: 480px) {
+    .brand { font-size: 1rem; }
+    .nav { gap: 8px; }
+    .logo { width: 36px; height: 36px; }
 }

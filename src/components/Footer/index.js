@@ -1,7 +1,9 @@
+import styles from './Footer.module.css';
+
 function Footer(){
     return (
-        <footer>
-            <p>Senac todos os direitos reservados</p>
+        <footer className={styles.footer}>
+            <p>ReactFlix ©</p>
         </footer>
     );
 }

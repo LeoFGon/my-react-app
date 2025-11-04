@@ -2,15 +2,17 @@ import styles from "./Header.module.css";
 
 function Header(){
     return (
-        // Conteúdo a ser exibido
-        // JSX = html + xml (html com css dentro do javascript)
         <header className={styles.header}>
-            <span> Aula Senac</span>
-            <nav>
+            <div className={styles.esquerda}>
+                <img src="/images/logo.gif" alt="ReactFlix logo" className={styles.logo} />
+                <span className={styles.titulo}>ReactFlix</span>
+            </div>
+            <nav className={styles.nav}>
                 <a href="#">Home</a>
-                <a href="#">Senac</a>
+                <a href="#">Página 1</a>
             </nav>
         </header>
     );
 }
+
 export default Header;
