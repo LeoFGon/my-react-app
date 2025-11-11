@@ -4,9 +4,15 @@
     /* allow this container to grow and fill available vertical space */
     flex: 1 1 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     padding: 40px; /* reduce large fixed padding so content can use space */
     box-sizing: border-box;
     width: 100%;
+}
+
+.texto {
+    font-size: 40px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
 }
