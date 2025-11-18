@@ -241,7 +241,7 @@ const listaVideos = [
 		snippet: {
 			publishedAt: "2017-01-13T12:00:00Z",
 			channelId: "UC_canal_luisfonsi",
-			title: "Despacito – Luis Fonsi ft. Daddy Yankee",
+			title: "Despacito - Luis Fonsi ft. Daddy Yankee",
 			description: "O hit global de reggaeton que quebrou recordes de visualizações em 2017, filmado em Porto Rico.",
 			thumbnails: { default: { url: "https://i.ytimg.com/vi/kJQP7kiw5Fk/default.jpg" } },
 			channelTitle: "LuisFonsiVEVO",
@@ -254,7 +254,7 @@ const listaVideos = [
 		snippet: {
 			publishedAt: "2015-04-07T10:00:00Z",
 			channelId: "UC_canal_wizkhalifa",
-			title: "See You Again – Wiz Khalifa ft. Charlie Puth",
+			title: "See You Again - Wiz Khalifa ft. Charlie Puth",
 			description: "A emocionante homenagem a Paul Walker da trilha sonora de Velozes e Furiosos 7.",
 			thumbnails: { default: { url: "https://i.ytimg.com/vi/RgKAFK5djSk/default.jpg" } },
 			channelTitle: "Wiz Khalifa",

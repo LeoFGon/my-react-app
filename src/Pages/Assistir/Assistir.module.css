@@ -1,0 +1,9 @@
+.assistir {
+    background-color: #68b0f7;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

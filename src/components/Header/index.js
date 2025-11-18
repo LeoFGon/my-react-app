@@ -9,7 +9,7 @@ function Header(){
             </div>
             <nav className={styles.nav}>
                 <a href="#">Home</a>
-                <a href="#">Página 1</a>
+                <a href="#">Assistir</a>
             </nav>
         </header>
     );
