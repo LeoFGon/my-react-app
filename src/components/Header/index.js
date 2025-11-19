@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 function Header(){
@@ -8,8 +9,8 @@ function Header(){
                 <span className={styles.titulo}>ReactFlix</span>
             </div>
             <nav className={styles.nav}>
-                <a href="#">Home</a>
-                <a href="#">Assistir</a>
+                <Link to="/">Home</Link>
+                <Link to="/assistir">Assistir</Link>
             </nav>
         </header>
     );
