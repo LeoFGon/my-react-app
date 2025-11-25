@@ -32,6 +32,15 @@
     gap: 16px;
 }
 
+.search {
+    height: 34px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.12);
+    background: white;
+    color: #111;
+}
+
 .nav a {
     color: inherit;
     text-decoration: none;

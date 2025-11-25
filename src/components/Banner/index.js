@@ -5,7 +5,7 @@ function Banner(){
         // Conteúdo a ser exibido
         // JSX = html + xml (html com css dentro do javascript)
         <div className={styles.banner}>
-            <span>BANNER</span>
+            <span>Seja Bem-Vindo(a)</span>
         </div>
     );
 }

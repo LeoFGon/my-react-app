@@ -5,11 +5,11 @@ import Footer from '../../components/Footer';
 
 function Assistir() {
     return (
-            <>
-            < Header />
-            < ContainerAssistir />
-            < Footer />
-            </>
+        <>
+            <Header />
+            <ContainerAssistir />
+            <Footer />
+        </>
     );
 }
 
