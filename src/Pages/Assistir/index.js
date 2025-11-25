@@ -1,12 +1,15 @@
-import styles from './Assistir.module.css';
+import React from 'react';
+import Header from '../../components/Header';
+import ContainerAssistir from '../../components/ContainerAssistir';
+import Footer from '../../components/Footer';
 
-function Assistir(){
+function Assistir() {
     return (
-        // Conteúdo a ser exibido
-        // JSX = html + xml (html com css dentro do javascript)
-        <div className={styles.assistir}>
-            
-        </div>
+            <>
+            < Header />
+            < ContainerAssistir />
+            < Footer />
+            </>
     );
 }
 

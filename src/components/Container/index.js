@@ -5,7 +5,7 @@ function Container({ children }){
         // Conteúdo a ser exibido
         // JSX = html + xml (html com css dentro do javascript)
         <div className={styles.container}>
-            <h1 className={styles.texto}>OS MELHORES VÍDEOS DA SEMANA</h1>
+            <h1 className={styles.texto}>TRAILERS</h1>
             {children}
         </div>
     );

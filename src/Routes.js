@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Home";
-import Assistir from "./Assistir";
+import Home from "./Pages/Home";
+import Assistir from "./Pages/Assistir";
+
 
 function AppRouters() {
     return (

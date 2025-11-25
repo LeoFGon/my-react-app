@@ -1,12 +1,21 @@
-import styles from './Home.module.css';
+import React from 'react';
+import Header from '../../components/Header';
+import Container from '../../components/Container';
+import Cards from '../../components/Cards';
+import Footer from '../../components/Footer';
+import Banner from '../../components/Banner';
 
-function Home(){
+
+function Home() {
     return (
-        // Conteúdo a ser exibido
-        // JSX = html + xml (html com css dentro do javascript)
-        <div className={styles.banner}>
-
-        </div>
+            <>
+            < Header />
+            < Banner />
+            < Container>
+                < Cards />
+            </ Container>
+            < Footer />
+            </>
     );
 }
 

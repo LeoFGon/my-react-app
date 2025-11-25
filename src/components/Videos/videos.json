@@ -1,0 +1,57 @@
+[
+  {
+    "kind": "youtube#searchResult",
+    "etag": "etag_01",
+    "id": { "kind": "youtube#video", "videoId": "ggZA2oi8S5s" },
+    "snippet": {
+      "title": "GOAT - New Trailer",
+      "thumbnails": {
+        "default": { "url": "https://img.youtube.com/vi/ggZA2oi8S5s/hqdefault.jpg" }
+      }
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "etag_02",
+    "id": { "kind": "youtube#video", "videoId": "yHtf5UAgGMU" },
+    "snippet": {
+      "title": "HOMESTEAD: A SÉRIE - Trailer Oficial (2025)",
+      "thumbnails": {
+        "default": { "url": "https://img.youtube.com/vi/yHtf5UAgGMU/hqdefault.jpg" }
+      }
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "etag_03",
+    "id": { "kind": "youtube#video", "videoId": "GKJtpXqa-oo" },
+    "snippet": {
+      "title": "Stranger Things 5 | Trailer - Volume 1 | Netflix",
+      "thumbnails": {
+        "default": { "url": "https://img.youtube.com/vi/GKJtpXqa-oo/hqdefault.jpg" }
+      }
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "etag_04",
+    "id": { "kind": "youtube#video", "videoId": "tklpX2Ba8NQ" },
+    "snippet": {
+      "title": "DEAD MAN'S WIRE Trailer (2025) Bill Skarsgård, Gus Van Sant",
+      "thumbnails": {
+        "default": { "url": "https://img.youtube.com/vi/tklpX2Ba8NQ/hqdefault.jpg" }
+      }
+    }
+  },
+  {
+    "kind": "youtube#searchResult",
+    "etag": "etag_05",
+    "id": { "kind": "youtube#video", "videoId": "PypDSyIRRSs" },
+    "snippet": {
+      "title": "Hoppers | Official Trailer",
+      "thumbnails": {
+        "default": { "url": "https://img.youtube.com/vi/PypDSyIRRSs/hqdefault.jpg" }
+      }
+    }
+  }
+]
